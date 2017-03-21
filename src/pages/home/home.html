@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Planning Poker</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card class="storypoint-button" *ngFor="let storyPoint of storyPointList" (click)="showStoryPoint(storyPoint)">
+    <div class="card-title">{{ storyPoint }}</div>
+  </ion-card>
+</ion-content>
