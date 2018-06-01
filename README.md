@@ -1,4 +1,4 @@
 # planning-poker
 
-## Demo
-https://stormy-hamlet-25905.herokuapp.com/
+## Live fully working web version
+https://wimdeb.github.io/planning-poker/
