@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, NavParams } from 'ionic-angular';
+import { NavParams } from 'ionic-angular';
 
 /*
   Generated class for the Storypoint page.
@@ -14,7 +14,7 @@ import { NavController, NavParams } from 'ionic-angular';
 export class StoryPoint {
   storyPoint: string;
 
-  constructor(private navCtrl: NavController, private navParams: NavParams) {}
+  constructor(private navParams: NavParams) {}
 
   ionViewDidLoad() {
     this.storyPoint = this.navParams.get('storyPoint');
